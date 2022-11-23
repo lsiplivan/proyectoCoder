@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: Calibri, sans-serif;  
+    color: whitesmoke;  
+    text-decoration: none;
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 2%;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+
+.header .menu{
+    padding-left: 3px;  
+    padding-right: 3px;  
+    display: inline-block;
+}
+
+.header .menu:hover{
+    color: yellow;
+    
+}
+
+.mainTitle{
+    color: yellow;
+    margin-top: 4%;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+}
+
+.cardsHome{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid grey;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+
+}
+
+
+
+/*
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+
+}
+*/
+.cardsTitle {
+    color:antiquewhite;
+    margin: 0.7rem 0;
+}
+
+footer{
+    grid-area: footer;
+    display:flex; 
+    justify-content: space-between;
+    /*margin-top: 100vh; */
+    margin-top: 20vh;
+    margin-left: 8%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    
+}
